@@ -1,0 +1,349 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="demo2.HTML.Admin" %>
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Ticket-To-Ride A Uttrakhand Tourism</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans" type="text/css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
+    </head>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<body>
+    <form id="form1" runat="server">
+        <div id="body-bg">
+            <ul class="social-icons pull-right hidden-xs">
+                <li class="social-rss">
+                    <a href="#" target="_blank" title="RSS"></a>
+                </li>
+                <li class="social-twitter">
+                    <a href="#" target="_blank" title="Twitter"></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#" target="_blank" title="Facebook"></a>
+                </li>
+                <li class="social-googleplus">
+                    <a href="#" target="_blank" title="GooglePlus"></a>
+                </li>
+            </ul>
+            <div id="pre-header" class="container" style="height: 40px">
+                <!-- Spacing above header -->
+            </div>
+            <div id="header">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.aspx" title="">
+                                <img src="assets/img/logo.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+                </div>
+            </div>
+            <!-- Top Menu -->
+            <div id="hornav" class="container no-padding">
+                <div class="row">
+                    <div class="col-md-12 no-padding">
+                        <div class="text-center visible-lg">
+                            <ul id="hornavmenu" class="nav navbar-nav">
+                                <li>
+                                    <a href="AdminHomePage.aspx" class="fa-home">Admin Home</a>
+                                </li>
+                                
+                                  <li>
+                                            <a href="AdminPackageManagement.aspx">Package Management</a>
+                                        </li>
+                                         <li>
+                                            <a href="AdminCatgory.aspx">Catagory</a>
+                                        </li>
+                                        <li>
+                                            <a href="AdminViewEnquiry.aspx">View Enquiry</a>
+                                        </li>
+                                        <li>
+                                            <a href="AdminViewBooking.aspx">View Booking</a>
+                                        </li>
+                                        <li>
+                                            <a href="AdminViewFeedback.aspx">View Feedback</a>
+                                        </li>
+                                <li>
+                                            <a href="AdminLogout.aspx">Logout</a>
+                                        </li>
+
+
+                                  
+                                        
+                                    </ul>
+                                
+                               
+                               
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Menu --> 
+         <div id="post_header" class="container" style="height: 40px">
+                <!-- Spacing below header -->
+            </div>
+            <div id="content-top-border" class="container">
+            </div>
+            <!-- === END HEADER === -->
+            <!-- === BEGIN CONTENT === -->
+            <div id="content">
+                <div class="container background-white">
+                    <div class="row margin-vert-40">
+                        <!-- Begin Sidebar Menu -->
+                        <div class="col-md-3">
+                            <ul class="list-group sidebar-nav" id="sidebar-nav">
+                                <!-- Typography -->
+                                <li class="list-group-item list-toggle">
+                                    <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-typography">TOP 10 Place</a>
+                                    <ul id="collapse-typography" class="collapse">
+                                        <li>
+                                            <a href="features-typo-basic.aspx">
+                                                <i class="fa fa-sort-alpha-asc"></i>Dehradun & Mussoorie</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Nainital & Ranikhet</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Rishikesh and Haridwar</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Chamoli</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Binsar</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Jim Corbett</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Almora</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Auli</a>
+                                        </li>
+                                          <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Pithoragarh</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="features-typo-blockquotes.aspx">
+                                                <i class="fa fa-magic"></i>Munsiyari</a>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- End Typography -->
+                                <!-- Components -->
+                                <li class="list-group-item">
+                                    <a href="Religioussites.aspx">Religious Sites</a>
+                                </li>
+                                  
+                                <!-- End Components -->
+                                <!-- Icons -->
+                                <li class="list-group-item">
+                                    <a href="Mountains.aspx"">Mountains</a>
+                                </li>
+                                 
+                                <!-- Testimonials -->
+                                <li class="list-group-item">
+                                    <a href="Interest.aspx">Interest & Landmarks</a>
+                                </li>
+                                <!-- End Testimonials -->
+                                <!-- Accordion and Tabs -->
+                                <li class="list-group-item">
+                                    <a href="historic.aspx">Historic Sites</a>
+                                </li>
+                                <!-- End Accordion and Tabs -->
+                                <!-- Buttons -->
+                                <li class="list-group-item">
+                                    <a href="lookouts.aspx">Lookouts</a>
+                                </li>
+                                <!-- End Buttons -->
+                                <!-- Carousels -->
+                                <li class="list-group-item">
+                                    <a href="natureparks.aspx">Nature & Parks</a>
+                                </li>
+                                <!-- End Accordion and Tabs -->
+                                <!-- Animate On Scroll -->
+                                <li class="list-group-item">
+                                    <a href="bodiesofwater.aspx">Bodies of Water</a>
+                                </li>
+                                <!-- End Animate On Scroll -->
+                                <!-- Grid System -->
+                                <li class="list-group-item">
+                                    <a href="waterfalls.aspx">Waterfalls</a>
+                                </li>
+                                 <li class="list-group-item">
+                                    <a href="naturewildlife.aspx">Nature & Wildlife Areas</a>
+                                </li>
+                                   <li class="list-group-item">
+                                    <a href="museums.aspx">Museums</a>
+                                </li>
+                                   <li class="list-group-item">
+                                    <a href="educationalsites.aspx">Educational sites</a>
+                                </li>
+                                   <li class="list-group-item">
+                                    <a href="fleastreetmarkets.aspx">Flea & Street Markets</a>
+                                </li>
+                                <!-- End Grid System -->
+                            </ul>
+                        </div>
+                        <!-- End Sidebar Menu -->
+                          <div class="col-md-9">
+                            <!-- Icon Size -->
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+                    </div>
+                </div>
+            </div>
+            <!-- === END CONTENT === -->
+            <!-- === BEGIN FOOTER === -->
+            <div id="content-bottom-border" class="container">
+            </div>
+            <div id="base">
+                <div class="container padding-vert-30 margin-top-60">
+                    <div class="row">
+                        <!-- Contact Details -->
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Contact Details</h3>
+                            <p>
+                                <span class="fa-phone">Telephone:</span>(+91)70-55940-646
+                                <br>
+                                <span class="fa-envelope">Email:</span>
+                                <a href="mailto:ksbora6241@gmail.com">ksbora6241@gmail.com</a>
+                                <br>
+                                <span class="fa-link">Website:</span>
+                                <a href="https://boracreation.wordpress.com/">www.boracreation.wordpress.com</a>
+                            </p>
+                            <p>Road No.1 Ram Nagar Colony,
+                                <br>Izzatnagar,Bareilly
+                                <br>UP PIN-243122,
+                                <br>India</p>
+                        </div>
+                        <!-- End Contact Details -->
+                        <!-- Sample Menu -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <h3 class="margin-bottom-10">Sample Menu</h3>
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-tasks" href="#">Nainital</a>
+                                </li>
+                                <li>
+                                    <a class="fa-users" href="#">Almora</a>
+                                </li>
+                                <li>
+                                    <a class="fa-signal" href="#">Auli</a>
+                                </li>
+                                <li>
+                                    <a class="fa-coffee" href="#">Mussoorie</a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- End Sample Menu -->
+                        <div class="col-md-1"></div>
+                        <!-- Disclaimer -->
+                        <div class="col-md-3 margin-bottom-20 padding-vert-30 text-center">
+                            <h3 class="color-gray margin-bottom-10">Join our Newsletter</h3>
+                            <p>
+                                Sign up for our newsletter for all the
+                                <br>latest news and information
+                            </p>
+                            <input type="email">
+                            <br>
+                            <button class="btn btn-primary btn-lg margin-top-20" type="button">Subscribe</button>
+                        </div>
+                        <!-- End Disclaimer -->
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Menu -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <a href="#" target="_blank">Sample Link</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Sample Link</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Sample Link</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Sample Link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="copyright" class="col-md-4">
+                            <%--<p class="pull-right">(c) 2018 Bora Creation</p>--%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer Menu -->
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+                </form>
+    </body>
+</html>
+<!-- === END FOOTER === -->
+
+
